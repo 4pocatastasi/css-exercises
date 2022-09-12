@@ -5,6 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display:block;
 }
 
 .title {
@@ -23,4 +24,27 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.main-container{
+  display:flex;
+  flex:1;
+  flex-direction: column;
+  align-items:center;
+  gap: 32px;
+}
+.content{
+  display:flex;
+  /* flex-direction: row; */
+  text-align:center;
+  gap:52px;
+  
+}
+.img-text-conainer > img{
+  margin:0 auto;
+}
+
+.img-text-conainer{
+  width: 200px;
+
 }

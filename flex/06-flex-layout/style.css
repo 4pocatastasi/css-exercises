@@ -25,3 +25,44 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+ul{
+    list-style-type: none;
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.header, .footer{
+  display:flex;
+  justify-content: space-between;
+}
+
+.right-links, .left-links{
+  display:flex;
+
+  padding: 0 6px;
+}
+
+.content{
+  margin:0 auto;
+  text-align:center;
+}
+
+button{
+  padding:8px 16px;
+}
+a {
+  font-style: 16px;
+  color:dimgrey;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
+
+.footer{
+  background-color:#eee;
+}
